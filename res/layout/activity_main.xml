@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" >
+
+  <ImageSwitcher
+    android:id="@+id/image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_large" />
+
+  <View
+    android:id="@+id/overscroll_left"
+    android:layout_width="@dimen/padding_medium"
+    android:layout_height="match_parent"
+    android:layout_gravity="left"
+    android:background="@drawable/overscroll_left"
+    android:visibility="gone" />
+
+  <View
+    android:id="@+id/overscroll_right"
+    android:layout_width="@dimen/padding_medium"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:background="@drawable/overscroll_right"
+    android:visibility="gone" />
+
+</FrameLayout>
