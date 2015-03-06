@@ -1,3 +1,6 @@
 <resources>
   <color name="overscroll">#33b5e5</color>
+  <color name="light_green">#c1e25e</color>
+  <color name="green">#a3c639</color>
+  <color name="dark_green">#85a71d</color>
 </resources>
